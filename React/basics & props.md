@@ -1,4 +1,4 @@
-## #Basics and props
+#Basics and props
 
 ###SPA란?
 
