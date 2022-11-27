@@ -1,4 +1,4 @@
-#States
+# States
 
 - state는 컴포넌트 내부에서 바뀔 수 있는 값을 나타냅니다.
 - 그럼 기존변수인 let 과 const 가 있는데 왜 굳이 states 를 사용해야 하는건가?
@@ -20,7 +20,7 @@ Lifecycle 과 components 의 관계를 알아보고
 
 ---
 
-####setName으로 할아버지 이름바꾸기
+#### setName으로 할아버지 이름바꾸기
 
 ```
 //src/App.js
@@ -58,7 +58,7 @@ export default App;
 
 ```
 
-####onClickHandler 사용하기
+#### onClickHandler 사용하기
 
 ```
 // src/App.js
@@ -79,7 +79,7 @@ return (
 export default App; //hello world
 ```
 
-####setName2
+#### setName2
 
 ```
 // src/App.js
@@ -102,7 +102,7 @@ return (
 export default App;
 ```
 
-####text state change
+#### text state change
 
 ```
 // src/App.js
@@ -129,7 +129,7 @@ export default App; //text를 온체인지해서, 그 value가 바뀌는걸 보�
 
 ---
 
-####불변성
+#### 불변성
 
 Ex.1
 Let number = 1

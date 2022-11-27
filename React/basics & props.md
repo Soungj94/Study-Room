@@ -1,6 +1,6 @@
-#Basics and props
+# Basics and props
 
-###SPA란?
+### SPA란?
 
 ```
     SPA 이전 Multi-Page-Application (MPA) 아키텍처에서는 페이지마다 서버에 해당 페이지의 HTML 파일을 요청하고 이를 브라우저가 응답으로 받아 유저가 볼 수 있도록 그려주는 구조였습니다.
@@ -52,12 +52,13 @@ JavaScript를 이용해 DOM을 직접 조작하면, 변경 사항이 있을 때�
 - **Jsx** 를 쓸 수 있는 구역: 리엑트에서 html 을 사용하기 위해 문법이 따로 있다
 - 내가 만든 컴포넌트를 밖으로 빼는 구역 **Export** **하단**
 
-###Jsx 문법:
+### Jsx 문법:
+
 컴포넌트의 생김새를 정의할때 사용하는 문법
 화면에서의 **레이아웃 구조**, DOM객체의 위치/얼핏보면 html 같이 생김 하지만 이건 **babel** 이라는 라이브러리가 자바스크립트로 변환해주기 때문에
 Jsx 는 js 이다
 
-####나올 수 있는 애러:
+#### 나올 수 있는 애러:
 
 1. Unterminated jsx contents: 태그가 재대로 닫혀있는지 확인
 2. Jsx 에서는 무조건 1개의 element 를 반환할 수 있다
@@ -101,7 +102,7 @@ function App() {
 export default App;
 ```
 
-####부모자식 관계:
+#### 부모자식 관계:
 
 ```
 
@@ -131,7 +132,7 @@ Props 는 부모 컴포넌트에서 내려오는 모든 데이터를 칭하는�
 예시에서는 객체에 담아서 보여줬고, 실제 스크린에는 child 가 가지고 있는 return 값만 보여줬다.
 ```
 
-####부모자식관계-2:
+#### 부모자식관계-2:
 
 ```
 // src/App.js
@@ -161,7 +162,7 @@ export default App;
 형제 컴포넌트가 있는데, 혹연 부모한테서, 다른자식한테 내린 데이터를 내가 받을 수 도 없다.
 ```
 
-####할아버지 부터 손자까지 데이터 내려주기
+#### 할아버지 부터 손자까지 데이터 내려주기
 
 ```
 // src/App.js
@@ -191,7 +192,7 @@ export default App;
 //굳이 props 를 적지 않아도 function child(aaa) 혹은 grandFatherName 이라든지, 모든 가능하다
 ```
 
-####조금 더 나아가서 children 과 default props
+#### 조금 더 나아가서 children 과 default props
 
 ```
 import React from "react";
@@ -224,7 +225,7 @@ export default App;
  default props 는 사라지게 되고 내려받은 props 의 값으로 대체 되게 됩니다.
 ```
 
-####구조분해할당
+#### 구조분해할당
 
 ```
 
@@ -242,4 +243,4 @@ export default App;
 
 ---
 
-##more Props
+## more Props
