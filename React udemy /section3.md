@@ -140,3 +140,10 @@ tip: when you have an open tag that does not have any given function inside, you
 - takeaway: when you look at your code through the console, it's mostly html codes.However, React makes up different features by using it's built in codes such as children, etc...
 
 #### JSX in detail
+
+- jsx codes won't show on dev tool, thanks for the behind the scene transformation
+- previous react would need to import react plus the code that we had to write was not easy to read..
+
+#### organizing component files
+
+-

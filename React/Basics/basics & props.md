@@ -241,6 +241,34 @@ export default App;
 //이렇게도 쓰인다
 ```
 
+#### 첫 state를 연결해주는 코드
+
+```
+function User(props) {
+  return (
+    <div>{props.user.age}살 - {props.user.name}</div>
+  );
+}
+
+const App = () => {
+  const users = [
+    { id: 1, age: 30, name: '송중기' },
+    { id: 2, age: 24, name: '송강' },
+    { id: 3, age: 21, name: '김유정' },
+    { id: 4, age: 29, name: '구교환' },
+  ];
+  return (
+    <div className="app-container">
+      {users.map((user) => {
+        return <User user={user} key={user.id} />;
+      })}
+    </div>
+  );
+};
+
+
+```
+
 ---
 
 ## more Props
