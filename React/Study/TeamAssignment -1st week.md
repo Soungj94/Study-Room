@@ -38,7 +38,6 @@ console.log(Array.isArray(u4array)); // false
 
 - 반드시 length가 필요하다
 - for문으로 순회할 수도 있다.
--
 
 ```jsx
 for (let i = 0, i < u4array.length; i++) {
@@ -56,7 +55,6 @@ for (let i = 0, i < u4array.length; i++) {
 [ 유사배열과 배열의 차이점 ]
 
 - 유사배열은 배열에 쓸 수 있는 ‘forEach, map, filter, reduce’ 같은 메서드 사용X
--
 
 ```jsx
 배열과 차이점
