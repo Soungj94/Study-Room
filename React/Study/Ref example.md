@@ -167,3 +167,6 @@ export default App;
 
 ref를 업데이트 시, 주의사항
 ref의 값을 업데이트 하는 것은 side Effect이므로, 컴포넌트의 렌더링을 방해해선 안됩니다. 그러므로 반드시 컴포넌트가 마운트 되고 난 직후 (useEffect) 내에서 쓰거나 이벤트가 발생할 때 실행 (event handler) 안에서만 업데이트가 발생하도록 코드를 작성하여야 합니다.
+
+https://chanhuiseok.github.io/posts/react-7/
+https://blog.toycrane.xyz/react-ref%EC%97%90-%EB%8C%80%ED%95%B4-%EC%9E%90%EC%84%B8%ED%9E%88-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90-f7d18d140716

@@ -2,7 +2,7 @@
 
 ```
 todo.id===id?{...todo, isDone: !todo.isDone}: todo;
-//A               //B                          //C
+        //A               //B                          //C
 
 
 {...todo, isDone: !todo.isDone }
