@@ -21,3 +21,5 @@ const diary()=>{
 {todos.map((value, index) => return <div key={`myDiary-todos-${value.id}`}>“안녕“<div>)}
 {diary.map((value, index) => return <div key={`myDiary-diray-${value.id}}>"안녕"</div>)
 ```
+
+https://ko.reactjs.org/docs/lists-and-keys.html
